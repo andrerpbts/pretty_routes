@@ -8,3 +8,5 @@ Just put the rake file into your +/lib/tasks+ folder
 Simply call this rake task
   rake pretty_routes 
 
+== References
+{Is there a way to make “rake routes” look better?}[http://stackoverflow.com/questions/3986997/is-there-a-way-to-make-rake-routes-look-better/5855624#5855624]
