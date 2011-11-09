@@ -1,0 +1,10 @@
+= Pretty Routes
+This is a small rake task to export your routes to HTML in a better view form than console outputs.
+
+== Instalation
+Just put the rake file into your +/lib/tasks+ folder
+
+== Usage
+Simply call this rake task
+  rake pretty_routes 
+
