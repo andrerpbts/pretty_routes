@@ -5,8 +5,9 @@ This is a small rake task to export your <b>Rails 3</b> routes to HTML in a bett
 Just put the rake file into your +/lib/tasks+ folder
 
 == Usage
-Simply call this rake task
+Simply call this rake task...
   rake pretty_routes 
+...and open the file routes.html in the root of your project folder.
 
 == References
 {Is there a way to make “rake routes” look better?}[http://stackoverflow.com/questions/3986997/is-there-a-way-to-make-rake-routes-look-better/5855624#5855624]
