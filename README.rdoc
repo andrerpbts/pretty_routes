@@ -1,5 +1,5 @@
 = Pretty Routes
-This is a small rake task to export your routes to HTML in a better view form than console outputs.
+This is a small rake task to export your <b>Rails 3</b> routes to HTML in a better view form than console outputs.
 
 == Instalation
 Just put the rake file into your +/lib/tasks+ folder
