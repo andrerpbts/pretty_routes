@@ -23,7 +23,7 @@ task :pretty_routes => :environment do
      
   styles
   File.open(File.join(RAILS_ROOT, "routes.html"), "w") do |f|
-    f.puts "<html><head><title>Rails 3 Routes</title><style type='text/css'>#{styles}</style></head><body><h1>Rake 3 Routes</h1><hr /><br /><table>"
+    f.puts "<html><head><title>Rails 3 Routes</title><style type='text/css'>#{styles}</style></head><body><h1>Rails 3 Routes</h1><hr /><br /><table>"
     f.puts "<thead><tr><th>Name</th><th>Verb</th><th>Path</th><th>Requirements</th></tr></thead><tbody>"
     cycle = 'even'
     routes.each do |r|
